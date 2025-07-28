@@ -1,0 +1,14 @@
+name: 'Kingly paragraph slideshow'
+type: 'Site'
+description: 'Configures Slideshow and Slideshow Slide paragraph types with responsive column settings.'
+
+install:
+  - paragraphs
+  - entity_reference_revisions
+  - options
+  - text
+  - link
+
+config:
+  # Allow the recipe to be applied even if some configuration already exists.
+  strict: false

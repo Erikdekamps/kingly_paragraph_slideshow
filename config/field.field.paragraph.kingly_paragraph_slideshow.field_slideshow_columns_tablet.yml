@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slideshow_columns_tablet
+    - paragraphs.paragraphs_type.kingly_paragraph_slideshow
+id: paragraph.kingly_paragraph_slideshow.field_slideshow_columns_tablet
+field_name: field_slideshow_columns_tablet
+entity_type: paragraph
+bundle: kingly_paragraph_slideshow
+label: 'Columns on tablet'
+description: 'Select the number of slides to show per page on tablet devices (768px to 990px).'
+required: true
+translatable: false
+default_value:
+  -
+    value: '2'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

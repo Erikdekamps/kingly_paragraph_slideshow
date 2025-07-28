@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_slideshow
+label: 'Kingly Slideshow'
+icon_uuid: null
+icon_default: null
+description: 'A responsive, accessible slideshow container. Add ''Slideshow Slide'' paragraphs inside this component.'
+behavior_plugins: {  }

@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_slideshow.field_slideshow_columns_desktop
+    - field.field.paragraph.kingly_paragraph_slideshow.field_slideshow_columns_mobile
+    - field.field.paragraph.kingly_paragraph_slideshow.field_slideshow_columns_tablet
+    - field.field.paragraph.kingly_paragraph_slideshow.field_slideshow_slides
+    - field.field.paragraph.kingly_paragraph_slideshow.field_slideshow_title
+    - paragraphs.paragraphs_type.kingly_paragraph_slideshow
+  module:
+    - entity_reference_revisions
+id: paragraph.kingly_paragraph_slideshow.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_slideshow
+mode: default
+content:
+  field_slideshow_slides:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_slideshow_columns_desktop: true
+  field_slideshow_columns_mobile: true
+  field_slideshow_columns_tablet: true
+  field_slideshow_title: true
+  search_api_excerpt: true

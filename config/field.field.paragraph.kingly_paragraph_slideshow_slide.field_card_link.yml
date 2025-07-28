@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    # Depends on the existing storage definition.
+    - field.storage.paragraph.field_card_link
+    - paragraphs.paragraphs_type.kingly_paragraph_slideshow_slide
+  module:
+    - link
+id: paragraph.kingly_paragraph_slideshow_slide.field_card_link
+field_name: field_card_link
+entity_type: paragraph
+bundle: kingly_paragraph_slideshow_slide
+label: Link
+description: 'Enter the URL and link text for the slide''s call-to-action button.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

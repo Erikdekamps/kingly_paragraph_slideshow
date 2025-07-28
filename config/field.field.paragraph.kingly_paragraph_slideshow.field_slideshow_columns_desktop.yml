@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slideshow_columns_desktop
+    - paragraphs.paragraphs_type.kingly_paragraph_slideshow
+id: paragraph.kingly_paragraph_slideshow.field_slideshow_columns_desktop
+field_name: field_slideshow_columns_desktop
+entity_type: paragraph
+bundle: kingly_paragraph_slideshow
+label: 'Columns on desktop'
+description: 'Select the number of slides to show per page on desktop devices (991px and up).'
+required: true
+translatable: false
+default_value:
+  -
+    value: '3'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

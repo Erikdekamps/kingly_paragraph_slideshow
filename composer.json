@@ -1,0 +1,21 @@
+{
+  "name": "erikdekamps/kingly_paragraph_slideshow",
+  "description": "A Drupal recipe that configures a responsive, accessible slideshow paragraph.",
+  "keywords": [
+    "drupal",
+    "recipe",
+    "paragraph",
+    "slideshow",
+    "carousel",
+    "sdc"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "drupal/paragraphs": "^1.17",
+    "erikdekamps/kingly_page": "dev-main",
+    "erikdekamps/kingly_paragraph_card": "dev-main",
+    "erikdekamps/kingly_minimal": "dev-main"
+  }
+}

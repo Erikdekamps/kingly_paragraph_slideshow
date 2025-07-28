@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slideshow_title
+    - paragraphs.paragraphs_type.kingly_paragraph_slideshow
+id: paragraph.kingly_paragraph_slideshow.field_slideshow_title
+field_name: field_slideshow_title
+entity_type: paragraph
+bundle: kingly_paragraph_slideshow
+label: 'Slideshow Title'
+description: 'Enter a title for the slideshow section (e.g., "Featured Products").'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
