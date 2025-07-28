@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 35daa491-0b41-4730-aa3e-20db9aae192f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 750x420.jpeg
+  uri:
+    -
+      value: 'public://2025-07/750x420.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9237
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753689390
