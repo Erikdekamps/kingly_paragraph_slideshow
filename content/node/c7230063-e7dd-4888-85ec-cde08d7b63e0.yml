@@ -103,7 +103,7 @@ default:
                   field_card_link:
                     -
                       target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
-                      title: 'Example link'
+                      title: 'Product one link'
                       options: {  }
                   field_card_title:
                     -
@@ -139,7 +139,7 @@ default:
                   field_card_link:
                     -
                       target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
-                      title: 'Example link'
+                      title: 'Product two link'
                       options: {  }
                   field_card_title:
                     -
@@ -175,11 +175,83 @@ default:
                   field_card_link:
                     -
                       target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
-                      title: 'Example link'
+                      title: 'Product three link'
                       options: {  }
                   field_card_title:
                     -
                       value: 'Product three'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 18c1c749-ad73-4f48-afc4-37ce1fa82a28
+                  bundle: kingly_paragraph_slideshow_slide
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1753695984
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_card_body:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus odio, condimentum non bibendum sit amet, rhoncus eu magna. Nunc scelerisque efficitur turpis pellentesque hendrerit. Pellentesque hendrerit dictum tristique.</p>'
+                      format: basic_html
+                  field_card_image:
+                    -
+                      entity: 88e4b5b7-93a4-4110-bbe8-f2f8c3b45148
+                  field_card_link:
+                    -
+                      target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
+                      title: 'Product four link'
+                      options: {  }
+                  field_card_title:
+                    -
+                      value: 'Product four'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2cbe05b0-ac9f-4107-8d3e-ddc3f1c5e90f
+                  bundle: kingly_paragraph_slideshow_slide
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1753696035
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_card_body:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus odio, condimentum non bibendum sit amet, rhoncus eu magna. Nunc scelerisque efficitur turpis pellentesque hendrerit. Pellentesque hendrerit dictum tristique.</p>'
+                      format: basic_html
+                  field_card_image:
+                    -
+                      entity: 88e4b5b7-93a4-4110-bbe8-f2f8c3b45148
+                  field_card_link:
+                    -
+                      target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
+                      title: 'Product five link'
+                      options: {  }
+                  field_card_title:
+                    -
+                      value: 'Product five'
           field_slideshow_title:
             -
               value: 'Featured Products'
