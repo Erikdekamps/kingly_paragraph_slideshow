@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    # We use the 'card' view mode for the media entity, same as the original card.
     - core.entity_view_mode.media.card
     - field.field.paragraph.kingly_paragraph_slideshow_slide.field_card_body
     - field.field.paragraph.kingly_paragraph_slideshow_slide.field_card_image

@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    # This field instance depends on the existing storage definition.
     - field.storage.paragraph.field_card_title
     - paragraphs.paragraphs_type.kingly_paragraph_slideshow_slide
 id: paragraph.kingly_paragraph_slideshow_slide.field_card_title

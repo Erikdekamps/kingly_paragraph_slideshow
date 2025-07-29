@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    # Depends on the existing storage definition.
     - field.storage.paragraph.field_card_body
     - filter.format.basic_html
     - paragraphs.paragraphs_type.kingly_paragraph_slideshow_slide

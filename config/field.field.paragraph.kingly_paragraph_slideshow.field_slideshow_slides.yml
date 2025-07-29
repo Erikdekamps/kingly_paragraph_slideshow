@@ -20,13 +20,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    # This section acts as an "allow-list", explicitly permitting only the
-    # 'kingly_paragraph_slideshow_slide' bundle.
     target_bundles:
       kingly_paragraph_slideshow_slide: kingly_paragraph_slideshow_slide
     negate: 0
-    # The UI settings only need to specify the enabled bundle. All others will
-    # be hidden automatically based on the target_bundles setting above.
     target_bundles_drag_drop:
       kingly_paragraph_slideshow_slide:
         enabled: true
